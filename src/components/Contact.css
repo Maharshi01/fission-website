@@ -1,0 +1,97 @@
+.contact{ text-align: center;     margin-top: 4rem; margin-bottom: 4rem;}
+.contact h1{font-family: 'Lato'; text-transform: uppercase; font-size: 3rem; font-weight: 800; color: #131313; letter-spacing: -1px;}
+.contact p{font-family: 'Lexend Deca', sans-serif;  font-size: 1rem; font-weight: 400; color: #000000; margin: 16px 0px 10px 0px;}
+.Contact-section{ margin: 18px 0px 26px 0px ; }
+.section{ text-align: center;}
+.touch{ border-bottom:2px solid #ccc;   font-family: 'Lato';     margin-top: 6%;}
+.touch h2{ font-size: 2rem; font-weight: 800;  color: #131313;}
+.section img{ width: 16%;}
+.section h2{ margin-top: 5%; font-family: 'Lato'; text-transform: uppercase; font-size:1.3rem; font-weight: 600; color: #131313; letter-spacing: -1px;}
+.section p{font-family: 'Lexend Deca', sans-serif;   font-size: 1rem; font-weight: 400; color: #000000;  margin-bottom: 4px;}
+
+/* input[type="text"]{ width: 100%; margin-bottom: 2%; outline: none; border: 0;
+  padding: 7px 0;
+  border-bottom: 2px solid #ccc;}*/
+.form-area{    box-shadow: 0px 3px 10px #00000029; padding: 34px;
+  margin: 5% 0%; width: 80%;
+  margin: 0px auto;}   
+.us h2{margin-top: 5%; font-family: 'Lato'; text-transform: uppercase; font-size:25px; font-weight: 600; color: #131313; letter-spacing: -1px;}
+.us h4{font-family: 'Lato';  font-size: 1rem; font-weight: 400; color: #000000;}
+.us p{font-family: 'Lato';  font-size: 1rem; font-weight: 400; color: #000000;}
+.india h2{margin-top: 5%; font-family: 'Lato'; text-transform: uppercase; font-size:25px; font-weight: 600; color: #131313; letter-spacing: -1px;}
+.india h4{font-family: 'Lato';  font-size: 1rem; font-weight: 400; color: #000000;}
+.india p{font-family: 'Lato';  font-size: 1rem; font-weight: 400; color: #000000;}
+.we { border-bottom: 2px solid #ccc;     width: 80%;
+  margin: 0px auto;}
+  .art{     width: 80%;
+    margin: 0px auto;}
+.we h1{font-family: 'Lato'; text-transform: uppercase; font-size: 2rem; font-weight: 800; color: #131313; letter-spacing: -1px;}
+.art p{font-family: 'Lato';  font-size: 1rem; font-weight: 400; color: #000000; margin: 20px 0px 37px 0px;}
+.us{ float: right; margin-right: 13rem;}
+.india{ float: left; margin-left: 8rem;}
+.crazine02{ width: 70%; position: absolute;}
+.idea {margin-bottom: 8rem; margin-top: 5%;}
+.get {margin-top: 3%;     width: 80%;
+  margin: 0px auto;}
+
+.form-control{margin-bottom: 2%; border: 0;
+  padding: 7px 0;
+  border-bottom: 2px solid #ccc; background-color: none;}
+@media screen and (max-width: 767px) and (min-width: 320px){
+.us{ float: left; margin-right: 0;     margin-left: 2rem;}
+.india{ float: left; margin-left: 2rem;}
+input#formBasicEmail{ margin-left: 0; font-size: 9px; padding: 5px 4px;} 
+.crazine02{width: 100%; position: absolute; margin-left: -7%;}
+.contact h1{ font-size: 2rem;}
+.get { margin-top: 11%;}
+}
+
+.form-area{ padding: 1px;}
+.size{  font-family: 'Lato'; margin: 20px 0px 37px 0px;}
+
+.contactform{
+  margin: 20px;
+}
+p.subted {
+  color: green;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: -17px;
+}
+input.fileds-input{
+  margin-bottom: 5px;
+  outline: none; border: 0;
+  padding: 7px 0;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0px;
+  width: 100%;
+  font-family: 'Lato';
+}
+
+textarea{
+  border: 1px solid #d8d8d8;
+  height: 32px;
+  width: 100%;
+  outline: none; border: 0;
+  border-bottom: 2px solid #ccc;
+    font-family: 'Lato';
+    color: #131313;
+}
+
+button#submit{
+  outline: none;
+  float: right;
+  border: none;
+}
+
+.error{
+  margin-left: 5px;
+  font-size: 13px;
+  color: red;
+}
+.btn.focus, .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+

@@ -1,0 +1,233 @@
+.crazine01 {
+  width: 100%;
+  position: absolute;
+}
+.pointer01 {
+  width: 100%;
+  padding: 4rem 0.1rem 2rem 0;
+  position: relative;
+  background: #f2f5f8;
+  top: -5em;
+}
+.pointer01:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid #fff;
+  border-bottom: 30px solid transparent;
+}
+.pointer01:after {
+  content: "";
+  position: absolute;
+  right: 0px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-right: 30px solid #131313;
+  border-top: 20px solid transparent;
+  border-top: 20px solid transparent;
+}
+input#formBasicEmail {
+  border: none;
+  border-bottom: 2px solid #000;
+  background-color: #f2f5f8;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Lato";
+  text-transform: uppercase;
+  margin-left: 6%;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.sub_btn span{ text-transform: uppercase;}
+.none_btn span {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: "Lato";
+  padding: 0.2em 2em;
+  background-color: #131313;
+  color: #c9e400;
+  border: 2px solid rgb(199, 255, 9);
+}
+.submit {
+  float: right;
+  margin-right: 20%;
+}
+.none_btn {
+  display: inline-block;
+  text-decoration: none;
+  transform: skew(-30deg);
+  cursor: pointer;
+  -moz-box-shadow: 6px 6px 0 #c9e400, 0 10px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 6px 6px 0 #c9e400, 0 10px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 6px 6px 0 #c9e400, 0 10px 15px rgba(0, 0, 0, 0.35);
+  -moz-transition: box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.none_btn:active {
+  -moz-box-shadow: 0 8px 0 #c9e400, 0 7px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 4px 7px 0 #c9e400, 0 7px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 6px 0 #c9e400, 0 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.none_btn:active span {
+  -moz-transform: translateY(4px);
+  -ms-transform: translateY(4px);
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+}
+p.next_text {
+  margin-bottom: 0em;
+  transform: skew(30deg);
+}
+.ourbrands {
+  margin-bottom: 8%;
+}
+.text-level {
+  width: 100%;
+}
+.cross {
+  background-repeat: no-repeat ;
+  background: linear-gradient(rgba(23, 21, 21, 0.38), rgba(23, 21, 21, 0.38)), url(https://fissioncdn.nyc3.digitaloceanspaces.com/1.jpg);
+  background-size: cover;
+  margin-left: 17%;
+}
+.cross01{
+  background: linear-gradient(rgba(23, 21, 21, 0.38), rgba(23, 21, 21, 0.38)), url(https://fissioncdn.nyc3.digitaloceanspaces.com/2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 17%;
+
+}
+.cross02{
+  background: linear-gradient(rgba(23, 21, 21, 0.38), rgba(23, 21, 21, 0.38)), url(https://fissioncdn.nyc3.digitaloceanspaces.com/3.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 17%;
+
+}
+.cross-right{
+  background: linear-gradient(rgba(23, 21, 21, 0.38), rgba(23, 21, 21, 0.38)), url(https://fissioncdn.nyc3.digitaloceanspaces.com/4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -4%;
+
+}
+.cross-right01{
+  background: linear-gradient( rgba(23, 21, 21, 0.38), rgba(23, 21, 21, 0.38)), url(https://fissioncdn.nyc3.digitaloceanspaces.com/5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -4%;
+
+}
+.cross-right02{
+  background: linear-gradient(rgba(23, 21, 21, 0.38), rgba(23, 21, 21, 0.38)), url(https://fissioncdn.nyc3.digitaloceanspaces.com/6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -4%;
+}
+.cross, .cross01, .cross02, .cross-right, .cross-right01, .cross-right02 { 
+  /* opacity: 0.5 !important;  */
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  /* -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; */
+}
+.cross01{ 
+  /* opacity: 0.5 !important;  */
+  -webkit-animation-duration: 5s;
+  animation-duration: 5s;
+  /* -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; */
+}
+.cross-right01 { 
+  /* opacity: 0.5 !important;  */
+  -webkit-animation-duration: 4s;
+  animation-duration: 4s;
+  /* -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; */
+}
+.cross{ 
+  /* opacity: 0.5 !important;  */
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+  /* -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; */
+}
+.cross, .cross01, .cross02{
+  padding: 4em 6em;
+  margin-bottom: 0.5em;
+  width: 83%;
+}
+.cross, .cross01, .cross02 p {
+  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;
+
+}
+
+
+.cross-right, .cross-right01, .cross-right02 {
+  /* padding: 8em 4em;
+  margin-bottom: 1em; */
+  padding: 4em 6em;
+  margin-bottom: 0.5em;
+  width: 83%;
+}
+ .cross-right01, .cross-right02, .cross, .cross01, .cross02 h2{
+  color: #fff;
+  font-size: 1em !important;
+  font-family: 'Lato';
+  text-transform: uppercase;
+}
+.cross02 h2 {
+  color: #fff;
+  font-size: 2em !important;
+  font-family: 'Lato';
+  text-transform: uppercase;
+}
+.cross-right01, .cross-right02 p {
+  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.cross-right { color: #fff; font-size: 1em; font-family: 'Lato';   text-transform: uppercase;}
+.craft {
+    margin: 3em 0 2em 6em;
+    /* float: left; */
+    width: 100%;
+}
+.craft span{ border-top:5px solid #e2ff10;  width: 2.5rem; position: absolute; margin-top: 0%; font-weight: 600; transform: skew(-40deg);}
+.right-img {
+  position: relative;
+  top: -4em;
+}
+.cross h2{ width: 20%;}
+.cross01 h2{ width: 20%;}
+.cross-right h2{ width: 20%;}
+.cross-right01 h2{ width: 20%;}
+.cross-right02 h2{ width: 20%;}
+.cross02 h2{ width: 20%;}
+
+.cross p{  color: #fff;
+  font-family: 'Lexend Deca', sans-serif; text-transform: lowercase; font-weight: 400; font-size: 0.9rem;}
+.cross01 p{  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;  text-transform: lowercase; font-weight: 400; font-size: 0.9rem;}
+.cross-right p{  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;  text-transform: lowercase; font-weight: 400;     font-size: 0.9rem;}
+.cross-right01 p{  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;  text-transform: lowercase; font-weight: 400;     font-size: 0.9rem;}
+.cross-right02 p{  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;  text-transform: lowercase; font-weight: 400;     font-size: 0.9rem;}
+.cross02 p{  color: #fff;
+  font-family: 'Lexend Deca', sans-serif;  text-transform: lowercase; font-weight: 400;     font-size: 0.9rem;} 
+  p.Sub_text.next-btn {
+    text-transform: uppercase;
+}

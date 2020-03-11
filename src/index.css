@@ -1,0 +1,290 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* .mystyle{
+  display:none !important;
+}
+.mystyle2{
+  display: flex;
+  flex-direction:column
+} */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.banner {margin: 3% 0 5% 0;}
+.background{ background-image: url(./images/Group_3061.png); background-repeat: no-repeat; background-size: cover;}
+.text-area, .para{ margin-top: 2%; text-align: center;}
+.text-area h2{ font-family: 'Lato'; font-size:3.5rem; letter-spacing:0;  color: #131313; 
+  opacity: 1; font-weight: bold;  }
+  .text-area h6{ font-family: 'Lato'; font-size:1.1rem; letter-spacing:0;  color: #131313; text-transform: uppercase;
+    opacity: 1; font-weight: 900; margin-top: 1%; margin-bottom: -14px;}
+    .para p{ font-family: 'Lexend Deca', sans-serif;  font-size:1rem; letter-spacing:0;  color: #131313; 
+      opacity: 1; font-weight: 600; margin-top: 2%; }
+.section-part{ background-color: #F2F5F8;}
+.lane{ margin-top: 6%;}
+.lane span{    width: 4%;
+  border-top: 6px solid #E2FF10;
+  position: absolute;
+  /* top: -5px; */
+  bottom: 73px;     transform: skew(-40deg);}
+.lane h2{font-family: 'Lato'; font-size:1.7rem; letter-spacing:0;  color: #131313; text-transform: uppercase;
+  opacity: 1; font-weight: 900;  margin-bottom: 0px; }
+.lane p{font-family: 'Lexend Deca', sans-serif;  font-size:1rem; letter-spacing:0;  color: #131313; 
+  opacity: 1; font-weight:400;}
+  .arrow {
+    display: flex;
+    margin-left: -3%;
+}
+.arrow img{ width: 45%;}
+.arrow01 img{ width: 45%;}
+.text {
+  margin-top: 15%;
+}
+.text p{font-family: 'Lexend Deca', sans-serif;  font-size:1rem; letter-spacing:0;  color: #131313; 
+  opacity: 1; font-weight:600;}
+  .text01 p{font-family: 'Lexend Deca', sans-serif;  font-size:1rem; letter-spacing:0;  color: #131313; 
+    opacity: 1; font-weight:600; text-align: right;}
+.arrow01{
+  transform: rotatey(180deg); /* IE 9 */
+  display: flex;
+  margin-left: -3%;
+}
+img.path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 5s linear alternate infinite;
+}
+.years-part {
+  padding: 5% 0 8% 0;
+}
+@keyframes dash {
+  from {
+    stroke-dashoffset: 1000;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.hiring span{    width: 4%;
+  border-top: 6px solid #E2FF10;
+  position: absolute;    transform: skew(-40deg);
+  /* top: -5px; */}
+.hiring h2{font-family: 'Lato'; font-size:1.7rem; letter-spacing:0;  color: #131313; text-transform: uppercase;
+  opacity: 1; font-weight: 900;  padding-top: 8px; }
+.team-section{ margin-top: 5%; margin-bottom: 13%;}
+.expert img{ margin:0px auto;}
+.more{float: right; margin-right: 14%;}
+.mean h2{font-family: 'Lato'; font-size:1rem; letter-spacing:0;  color: #131313; text-transform: uppercase;
+  opacity: 1; font-weight: 900;  margin-bottom: 0px;text-align: center;}
+.mean p{font-family: 'Lexend Deca', sans-serif; font-size:1rem; letter-spacing:0;  color: #131313; 
+  opacity: 1; font-weight: 600; margin-top: 2%;     text-align: left; margin-bottom: 0;}
+
+  .pointer {
+    width: 100%;
+    padding: 4rem 0.1rem 2rem 0;
+    position: relative;
+    background: #F2F5F8;
+    top: -5em;
+  }
+  .pointer:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  top: 0px;
+  width: 0;
+  height: 0;
+  border-left: 30px solid #fff;
+  border-bottom: 30px solid transparent;
+}
+  .pointer:after {
+      content: "";
+      position: absolute;
+      right: 0px;
+      bottom: 0;
+      width: 0;
+      height: 0;
+      border-right: 30px solid #131313;
+      border-top: 20px solid transparent;
+      border-top: 20px solid transparent;
+  }
+  input#formBasicEmail {
+    border: none;
+    border-bottom: 2px solid #000;
+    background-color: #F2F5F8;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    font-family: 'Lato';
+    margin-left: 6%;
+}
+.form-control:focus {
+  box-shadow: none;
+}
+.none_btn span {
+  display: inline-block;
+  font-size: 1.5em;
+  font-family: 'Lato';
+  padding: 0.20em 2em;
+  background-color: #131313;
+  color: #C9E400;
+  border: 2px solid rgb(199, 255, 9);
+}
+.submit {
+  float: right;
+  margin-right: 20%;
+}
+.none_btn {
+  display: inline-block;
+  text-decoration: none;
+  transform: skew(-30deg);
+  cursor: pointer;
+  -moz-box-shadow: 6px 6px 0 #C9E400, 0 10px 15px rgba(0, 0, 0, 0.35);
+  -webkit-box-shadow: 6px 6px 0 #C9E400, 0 10px 15px rgba(0, 0, 0, 0.35);
+  box-shadow: 6px 6px 0 #C9E400, 0 10px 15px rgba(0, 0, 0, 0.35);
+  -moz-transition: box-shadow 0.2s ease-in-out;
+  -o-transition: box-shadow 0.2s ease-in-out;
+  -webkit-transition: box-shadow 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.none_btn:active {
+  -moz-box-shadow: 0 8px 0 #C9E400, 0 7px 10px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 4px 7px 0 #C9E400, 0 7px 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 6px 0 #C9E400, 0 7px 10px rgba(0, 0, 0, 0.25);
+}
+
+.none_btn:active span {
+-moz-transform: translateY(4px);
+-ms-transform: translateY(4px);
+-webkit-transform: translateY(4px);
+transform: translateY(4px);
+}
+p.next_text {
+  margin-bottom: 0em;
+  transform: skew(30deg);
+} 
+#mobile-menu{ display: none;}
+
+/* .arrow img{ width: 60%;}
+.arrow01 img{ width: 60%;} */
+
+
+
+
+
+
+
+/* footer-css*/
+.footer-part{
+  background-color: #131313;
+  float: left;
+    width: 100%;
+}
+.us-part h2{font-family: 'Lato'; font-size:1rem; letter-spacing:0;  color: #E2FF10; text-transform: capitalize;
+  opacity: 1; font-weight: 900; }
+.us-part h6{font-family: 'Lato'; font-size:1rem; letter-spacing:0;  color: #E2FF10; text-transform: capitalize;
+  opacity: 1; font-weight: 400; margin-top: 8%; margin-bottom: 0; }
+  .us-part p{font-family: 'Lexend Deca', sans-serif;  font-size:0.8rem; letter-spacing:0;  color: #A8A8A8; 
+    opacity: 1; font-weight: 400;  margin-bottom: 0px;}
+    .us-part p a{ color: #A8A8A8;  text-decoration: none;}
+    .footer-area {
+      padding-top: 14%;
+      padding-bottom: 3%;
+  }
+  .crazine {
+    position: absolute;
+    width: 100%;
+}
+.col-lg-2.col-md-2.col-sm-12.col-12 {
+  padding: 0px;
+}
+.footer-bottom{ background-color: #FAFAFA; padding: 10px 0px; width: 100%; float: left;}
+.copy p{font-family: 'Lato'; font-size:0.8rem; font-weight: 600; margin-bottom: 2px;}
+.copy, .icons{ text-align: center;}
+.section-part01{ display: none;}
+
+
+
+@media (max-width: 768px) and ( min-width: 320px) {
+  .section-part01{ display: block;}
+  .section-part{ display: none;}
+  .pointer{ top:-5em;}
+  .team-section {    margin-bottom: 35%;  }
+  .footer-area {padding-top: 46%;}
+  .col-lg-2.col-md-2.col-sm-12.col-12 {padding: 0 18px;}
+  .none_btn span{ font-size: 1rem;}
+  input#formBasicEmail{    font-size: 8px; margin-left: 0;}
+  .pointer:after {right: -1px; bottom: -1px;}
+  .text-area h2 {font-size: 2rem;}
+  .text-area h6 {font-size: 1rem; }
+  .lane span { width: 15%;  bottom: 64px;}
+  .lane h2{ font-size: 1rem;}
+  .hiring span {width: 14%; left: 7%;}
+  .hiring h2{ padding-left: 9%;}
+.menu{ display: none;}
+  #mobile-menu{ display: block}
+  #mobile-menu li.fission img {
+    width: 50%; display: none;}
+.us-part h2{margin-top: 6%;}
+.arrow, .arrow01 img{ display:none;}
+
+  #mobile-menu img{ width: 20%; float: right;}
+  /* .menu ul li{ display: none !important;} */
+  ul.submenu {
+    display: none;
+    padding: 0px;
+    margin-top:0px;
+    margin-left:-5%;	
+    float: left;
+    width:73% !important;}
+  #mobile-menu .logo-mobile img{ float: left; width: 20%;}
+}
+@media (max-width: 1024px) and ( min-width: 769px) {
+
+.menu ul li{ padding: 10px 17px !important;}
+}
+@media (max-width: 1549px) and ( min-width: 1025px) {
+  .menu ul li{ padding: 10px 45px !important;}
+
+}
+@media (max-width: 2560px) and ( min-width: 1540px) {
+  .menu ul li{padding: 1em 6.4em !important;}
+}
+
+/* span.highly{
+  transform: translateY(-1rem);
+  transition-timing-function: linear, ease;
+  transition-duration: 0.1s;
+  transition-delay: 0.5s;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+} */
+
+.example-enter {
+  opacity: 0.01;
+}
+
+.example-enter.example-enter-active {
+  opacity: 1;
+  transition: opacity 25s ease-in;
+  animation-duration: 3s;
+}
+
+.example-leave {
+  opacity: 1;
+}
+
+.example-leave.example-leave-active {
+  opacity: 0.01;
+  transition: opacity 25s ease-in;
+  animation-duration: 3s;
+}

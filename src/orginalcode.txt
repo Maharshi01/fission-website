@@ -1,0 +1,61 @@
+import React from 'react';
+import { Route, Link, BrowserRouter as Router } from 'react-router-dom'; 
+import { Nav, Navbar}from 'react-bootstrap' 
+import About from './components/About';  
+import Contact from './components/Contact'; 
+import Services from './components/Services';
+import './images/Fission_Logo.svg';
+import Home from './components/Home';
+
+class App extends React.Component{
+    render(){
+        return(<div>
+            <Router>  
+              
+              <div>  
+                  <div className="menu">
+                <ul>  
+                  <li>  
+                    <Link to="/">Home</Link>  
+                  </li>  
+                  <li>  
+                    <Link to="/about">About</Link>  
+                  </li>  
+                  <li>  
+                    <Link to="/contact">Contact</Link>  
+                  </li> 
+                  <li>  
+                    <Link to="/services">Services</Link>  
+                  </li> 
+                  
+                  <li className="fission">   
+                    <Link to="/logo" ><img src={require('./images/Fission_Logo.svg')} alt="img01" /></Link>  
+                  </li> 
+               
+                  <div className="right-menu">
+                  <li>  
+                    <Link to="/">Home</Link>  
+                  </li>  
+                  <li>  
+                    <Link to="/about">About</Link>  
+                  </li>  
+                  <li>  
+                    <Link to="/contact">Contact</Link>  
+                  </li> 
+                  <li>  
+                  <a class="sub_btn"><span class="sub_text"  Link to="/services"><p class="Sub_text">SUBMIT</p></span></a>
+                  </li> 
+                  </div>
+                </ul>  
+                </div>
+                <Route exact path="/" component={Home} />  
+                <Route path="/about" component={About} />  
+                <Route path="/contact" component={Contact} /> 
+                <Route path="/services" component={Services} />
+                <Navbar.Toggle aria-controls="basic-navr-nav"/>   
+              </div>  
+            </Router>  
+           </div>)
+    }
+}
+export default App;

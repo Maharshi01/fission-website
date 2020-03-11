@@ -1,0 +1,114 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-logo {
+    height: 40vmin;
+  }
+  
+  .App-header {
+    background-color: #F2F5F8;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #09d3ac;
+  }
+  
+  .card-wrap-1 h3{
+    color : green;
+    /* width: 10px; */
+  }
+  .card-wrap-2 h3{
+    color : rgb(38, 0, 128);
+  }
+  .card-wrap-3 h3{
+    color : rgb(245, 28, 28);
+  }
+  .card-wrap-1 .card-content-holder{
+    position: relative;
+  }
+  .card-wrap-1 .card-content-holder:before {
+    content: '';
+      position: absolute;
+      top: 0; 
+      right: 0;
+      border-left: 25px solid white;
+      border-top: 25px solid #F2F5F8;
+  }
+  /* .card-wrap-1:after{
+    content: '';
+    width: 10px;
+  height: 50px;
+  position: absolute;
+  background-color: yellowgreen;
+  top: 50%;
+      left: 49%;
+  } */
+  /* .card-wrap-2:after{
+    content: ''; 
+    width: 10px;
+  height: 47px;
+  position: absolute;
+  background-color: yellowgreen;
+  top: 50%;
+      left: 49%;
+  } */
+  .card-wrap-1 .card-content-holder:after {
+    content: '';
+      position: absolute;
+      bottom: 0; 
+      left: 0;
+      border-top: 25px solid white;
+      border-left: 25px solid #F2F5F8;
+  }
+  .card-wrap-2 .card-content-holder{
+    position: relative;
+    float: right;
+  }
+  .card-wrap-2 .card-content-holder:before {
+    content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      border-top: 25px solid #F2F5F8;
+      border-right: 25px solid white;
+  
+  }
+  .card-wrap-2 .card-content-holder:after {
+    content: '';
+    position: absolute;
+    bottom: 0; 
+    right: 0;
+    border-top: 25px solid white;
+    border-right: 25px solid #F2F5F8;
+  
+  }
+  .card-wrap{
+    position: relative;
+    width: 100%;
+    float: left;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 10px 100px;
+    background-color: #F2F5F8;
+  }
+  .card-wrap img{
+    width: 143px;
+  height: 44px;
+  }
+  .card-content-holder{
+    background-color: white;
+    padding : 23px 25px;
+    width : 40%;
+  }
+  .img-holder {
+    text-align: right;
+}
+  

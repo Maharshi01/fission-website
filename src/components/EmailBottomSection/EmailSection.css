@@ -1,0 +1,89 @@
+/* Enter your email to get a SNEAK PEAK OF OUR CRAZINESS CSS */
+.enter_email_block {
+    position: absolute;
+    background: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 3rem;
+    box-shadow: 3px 3px 15px #00000029;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    margin-top: -4rem;
+    width: 72%;
+    margin-left: 13%;
+    color: #000000;
+   }
+   .enter_email_block:before{
+    content: "";
+    position: absolute;
+    left: 0; top: 0;
+    bottom: 100%;
+    border-top: 15px solid #c4bdbd29;
+    border-right: 15px solid transparent;
+   }
+   .enter_email_block:after {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+    border-right: 15px solid #000;
+    border-top: 15px solid transparent;
+   }
+   .email_text {
+        width: 55%;
+        margin-top: 2%;
+    }
+    input.email_field {
+        width: 100%;
+        border: none;
+        border-bottom: 1.5px solid black;
+        outline: none;
+        font-family: 'Lexend Deca', sans-serif; 
+        color: #113311;
+        font-size:19px;
+        font-weight: 400;
+        text-shadow: none;
+    }
+
+    /* media query css */
+@media screen and (max-width:767px) {
+    .enter_email_block {
+        display: block;
+        padding: 2rem;
+        width: 93%;
+        margin-left: 3%;
+    }
+    .email_text {
+        width: 100%;
+        margin-bottom: 1rem;
+   
+    }
+}
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .enter_email_block {
+        display: block;
+        padding: 3rem;
+      
+    }
+    .email_text {
+        width: 80%;
+        margin-bottom: 1rem;
+    }
+}
+
+
+::placeholder {
+    color: #000000 !important;
+  }
+  .errorMes {
+    color: red;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  .successMes {
+    color: green;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
